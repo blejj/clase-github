@@ -81,7 +81,7 @@
   letter-spacing: 3px;
 }
 
-.inicio-huno:hover{
+/* .inicio-huno:hover{
   background-color: rgb(219, 138, 138);
   transition:.5s;
 }
@@ -90,7 +90,7 @@
   color: grey;
   transition: .4s;
   transform: skew(-15deg);
-}
+} */
 
 .inicio-hdos{
   grid-area: cuerpo-uno;
@@ -98,17 +98,6 @@
   text-align: center;
   color:rgb(143, 50, 50);
   font-size: 30px;
-}
-
-.flex-index{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.flex-index img{
-  padding: 5px;
-  max-width: 300px;
 }
 
 /* CONTACTO */
@@ -175,6 +164,7 @@
 .conjunto-de-imagenes{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* NUESTRAS OFICINAS */
@@ -258,6 +248,7 @@
   justify-content: center;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /* FOOTER */
