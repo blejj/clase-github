@@ -88,6 +88,17 @@
   font-size: 30px;
 }
 
+.flex-index{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-index img{
+  padding: 5px;
+  max-width: 300px;
+}
+
 /* CONTACTO */
 
 .imgfondo-contacto{
