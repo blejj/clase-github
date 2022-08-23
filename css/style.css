@@ -80,12 +80,35 @@
   font-size: 25px;
   letter-spacing: 3px;
 }
+
+.inicio-huno:hover{
+  background-color: rgb(219, 138, 138);
+  transition:.5s;
+}
+
+.inicio-hdos:hover{
+  color: grey;
+  transition: .4s;
+  transform: skew(-15deg);
+}
+
 .inicio-hdos{
   grid-area: cuerpo-uno;
   font-family: "Oswald", sans-serif;
   text-align: center;
   color:rgb(143, 50, 50);
   font-size: 30px;
+}
+
+.flex-index{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-index img{
+  padding: 5px;
+  max-width: 300px;
 }
 
 /* CONTACTO */
