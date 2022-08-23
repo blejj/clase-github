@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&family=Dosis:wght@200&family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Cantarell&family=Dosis:wght@200&family=Oswald:wght@200&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*GRID*/
+
+.container {
+    display: grid;
+    grid-template-columns: 12vw auto 13vw;
+    grid-template-rows: 12vh auto 13vh;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header header header"
+      "cuerpo-uno cuerpo-uno cuerpo-uno cuerpo-uno"
+      "footer footer footer footer";
+  }
+  
+/* HEADER */
+
+  .header { 
+    grid-area: header;
+    background-color: rgba(179, 128, 70, 0.377);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a img{
+  height: 12vh;
+}
+
+.header nav{
+  display: flex;
+  align-items: center;
+}
+
+.header nav ul{
+  display: flex;
+  list-style: none;
+}
+
+.header nav ul li{
+  padding: 15px;
+}
+
+.header nav ul li a{
+  color:rgb(139, 32, 32);
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+
+}
+
+.header nav ul li a:hover{
+  color: rgb(235, 142, 142);
+}
+
+/* INICIO */
+
+.cuerpo-uno{
+  grid-area: cuerpo-uno;
+}
+
+.imgfondo-inicio{
+  background:url(../imagenes/fondoinicio.jpg);
+  background-size: cover;
+}
+
+.inicio-huno{
+  grid-area: cuerpo-uno;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: rgb(221, 82, 82);
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.inicio-hdos{
+  grid-area: cuerpo-uno;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color:rgb(143, 50, 50);
+  font-size: 30px;
+}
+
+/* CONTACTO */
+
+.imgfondo-contacto{
+  background-image: url(../imagenes/contactanos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu{
+  text-align: center;
+}
+
+.formulario .contacto-huno{
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  color: rgb(221, 82, 82);
+}
+
+/* SOBRE NOSOTROS */
+
+.imgfondo-sobrenosotros{
+  background-image: url(../imagenes/sobrenosotros.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sobrenosotros-huno{
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  color:rgb(143, 50, 50);
+}
+
+.sobrenosotros-parrafo{
+  font-weight: bold;
+  font-family: "Cairo", sans-serif;
+  padding: 13px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:rgb(170, 47, 47);
+  background-color: rgb(224, 197, 162);
+}
+
+.imagen1-sobrenosotros img{
+  max-width: 350px;
+}
+
+.imagen2-sobrenosotros img{
+  max-width: 424px;
+}
+
+.imagen3-sobrenosotros img{
+  max-width: 310px;
+}
+
+.conjunto-de-imagenes{
+  display: flex;
+  justify-content: center;
+}
+
+/* NUESTRAS OFICINAS */
+
+.imgfondo-oficinas{
+  background-image:url(../imagenes/mapas.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.recuadro{
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+.oficinas-hdos{
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.oficinas-parrafo{
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.googlemaps{
+  text-align: center;
+}
+
+/* PROFESIONALES */
+
+.profesionales-huno{
+  text-align: center;
+  color:rgb(143, 50, 50);
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+
+.profesionales-recuadro{
+  display: flex;
+  max-width: 350px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profesionales-otro{
+  background-color: antiquewhite;
+}
+
+.profesionales-hdos{
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.profesionales-parrafo{
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 5px;
+}
+
+.profesional-uno img{
+  max-width: 350px;
+}
+
+.profesional-dos img{
+  max-width: 350px;
+}
+
+.profesional-tres img{
+  max-width: 178px;
+  text-align: center;
+}
+
+.profesionales-todo{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* FOOTER */
+
+.footer { 
+  display: flex;
+  grid-area: footer;
+  background-color: rgba(179, 128, 70, 0.377);
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .links-index{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer .links-index a{
+  padding: 20px;
+  text-decoration: none;
+  color:rgb(139, 32, 32);
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.footer .links-index a:hover{
+  color: rgb(235, 142, 142);
+}
+  

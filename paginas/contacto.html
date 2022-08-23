@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MQ ESTUDIO JURIDICO</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="../index.html">
+                <img src="../imagenes/logo.jpg" alt="LOGO">
+            </a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/sobrenosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/profesionales.html">Profesionales</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/oficinas.html">Nuestras Oficinas</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="cuerpo-uno imgfondo-contacto">
+            <div class="formulario">
+                <div class="contacto-huno">
+                    <h1>CONTÁCTANOS</h1>
+                </div>
+                <div class="menu">
+                    <form action="#" method="get">
+                        <input type="text" placeholder="Nombre y Apellido" name="nombre" required>
+                        <br><br>
+                        <input type="password" placeholder="Contraseña" name="pass" required>
+                        <br><br>
+                        <input type="email" placeholder="Email" name="email" required>
+                        <br><br>
+                        <input type="tel" placeholder="Telefono" name="telefono" required>
+                        <br><br>
+
+                        <!-- RADIO -->
+                        <label for="sexo">Hombre</label>
+                        <input type="radio" value="hombre" name="sexo">
+                        <label for="sexo">Mujer</label>
+                        <input type="radio" value="hombre" name="sexo">
+                        <br><br>
+
+                        <!-- MENU DESPLEGABLE = SOLO FORM -->
+                        <select name="rama">
+                            <option value="-">Tipo de rama</option>
+                            <option value="familia">Familia</option>
+                            <option value="penal">Penal</option>
+                            <option value="comercial">Comercial</option>
+                            <option value="empresarial">Empresarial</option>
+                        </select>
+                        <br><br>
+
+                        <!-- COMENTARIO -->
+                        <textarea name="comentario" cols="25" rows="10"
+                            placeholder="¿A que se debe su consulta?"></textarea>
+                        <br><br>
+
+                        <!-- TERMINOS Y CONDICIONES -->
+                        <label>Aceptar terminos y condiciones</label>
+                        <input type="checkbox" name="acepta" value="si" required>
+                        <br><br>
+
+                        <!-- ENVIAR -->
+                        <input type="submit" value="Enviar">
+
+                        <!-- RESETEAR INFORMACION FORMULARIO -->
+                        <input type="reset" value="Reset">
+                        <br><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+            <div class="footer">
+                <div class="links-index">
+                    <a href="https://es-la.facebook.com/">Facebook</a>
+                    <a href="https://twitter.com/">Twitter</a>
+                    <a href="https://es-la.facebook.com/">Twitch</a>
+                </div>
+                <div class="copy-index">
+                    <p>COPYRIGHT 2022 - HECHO POR FRANCO BLEILE &copy</p>
+                </div>
+            </div>
+    </div>
+</body>
+
+</html>
