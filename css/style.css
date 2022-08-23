@@ -80,6 +80,18 @@
   font-size: 25px;
   letter-spacing: 3px;
 }
+
+.inicio-huno:hover{
+  background-color: brown;
+  transition:.5s;
+}
+
+.inicio-hdos:hover{
+  color: grey;
+  transition: .4s;
+  transform: skew(-15deg);
+}
+
 .inicio-hdos{
   grid-area: cuerpo-uno;
   font-family: "Oswald", sans-serif;
